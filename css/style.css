@@ -2,13 +2,15 @@
 
 body{
   background-color: black;
-  color: aliceblue;
-  font-family: 'Raleway Dots';
-  padding: 10px;
 }
 
 #homePage{
-  position: fixed;
+  position: sticky;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+  font-family: 'Raleway Dots';
 }
 
 span{
@@ -16,16 +18,18 @@ span{
 }
 
 #iconBlock{
+  display: flex;
   align-items: center;
 }
 
 #icon{
   height: 40px;
   width: 40px;
-  padding-left: 8px;
+  padding-right: 10px;
 }
 
 #footer {
-  position: absolute;
+  font-family: 'Raleway Dots';
+  position: fixed;
   bottom: 0;
 }
